@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name\ desc\ p\ se\ sl\ sT\ sB
+comment0.target=Equipment(java.lang.String,\ java.lang.String,\ int,\ boolean,\ int,\ int,\ int)
+comment0.text=\r\n\ Creates\ a\ piece\ of\ equipment\ with\ the\ appropriate\ perameters\r\n\ @param\ name\ The\ name\ of\ the\ equipment\r\n\ @param\ desc\ The\ ingame\ description\ of\ the\ equipment\r\n\ @param\ p\ The\ price\ of\ the\ equipment\r\n\ @param\ se\ Whether\ of\ not\ the\ equipment\ can\ be\ sold\r\n\ @param\ sl\ The\ slot\ that\ the\ equipment\ gets\ equipped\ to\ (0-Head,\ 1-Neck,\ 2-Chest,\ 3-Hand,\ 4-Ring,\ 5-Legs)\r\n\ @param\ sT\ The\ type\ of\ stat\ the\ equipment\ boosts\ (0-Strength,\ 1-Agility,\ 2-Defense,\ 3-Health,\ 4-Charm)\r\n\ @param\ sB\ The\ amount\ the\ stat\ gets\ increased\ when\ the\ equipment\ is\ equipped\r\n
+comment1.params=
+comment1.target=int\ getSlot()
+comment1.text=\r\n\ Returns\ the\ slot\ of\ the\ equipment\ (0-Head,\ 1-Neck,\ 2-Chest,\ 3-Hand,\ 4-Ring,\ 5-Legs)\r\n
+comment2.params=
+comment2.target=int\ getStatType()
+comment2.text=\r\n\ Returns\ what\ stat\ the\ equipment\ boosts\ (0-Strength,\ 1-Agility,\ 2-Defense,\ 3-Health,\ 4-Charm)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getStatTypeName()
+comment3.text=\r\n\ Returns\ the\ name\ of\ the\ stat\ the\ equipment\ boosts\r\n
+comment4.params=
+comment4.target=int\ getStatBonus()
+comment4.text=\r\n\ Returns\ the\ numerical\ bonus\ the\ equipment\ gives\ to\ the\ stat\ type\r\n
+numComments=5

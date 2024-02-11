@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=QuestNPC
+comment0.text=\r\n\ An\ NPC\ that\ provides\ a\ reward\ once\ given\ a\ desired\ item\r\n
+comment1.params=name\ desc\ d\ r
+comment1.target=QuestNPC(java.lang.String,\ java.lang.String,\ Item,\ Item)
+comment1.text=\r\n\ Creates\ a\ quest\ NPC\ with\ the\ appropriate\ parameters\r\n
+comment2.params=
+comment2.target=boolean\ isResolved()
+comment2.text=\r\n\ Returns\ whether\ the\ quest\ NPC's\ reward\ has\ already\ been\ claimed\ or\ not\r\n
+comment3.params=p
+comment3.target=boolean\ talk(Player)
+comment3.text=\r\n\ Allows\ the\ player\ to\ interact\ with\ the\ quest\ NPC,\ returning\ whether\ the\ quest\ is\ resolved\r\n
+numComments=4

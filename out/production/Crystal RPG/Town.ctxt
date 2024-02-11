@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Town
+comment0.text=\r\n\ An\ ingame\ town,\ which\ a\ number\ of\ NPCs\ reside\ in\r\n
+comment1.params=name\ desc\ size
+comment1.target=Town(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ a\ town\ with\ a\ name,\ description,\ and\ size,\ creating\ NPCs\ based\ on\ the\ size\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSizeName()
+comment2.text=\r\n\ Returns\ the\ size\ category\ of\ the\ town\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNPCs()
+comment3.text=\r\n\ Returns\ a\ string\ listing\ of\ all\ the\ NPCs\ in\ the\ town\r\n
+comment4.params=p
+comment4.target=void\ visit(Player)
+comment4.text=\r\n\ Runs\ visiting\ the\ town\r\n
+numComments=5

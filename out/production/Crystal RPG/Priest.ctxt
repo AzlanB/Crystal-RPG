@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Priest
+comment0.text=\r\n\ An\ NPC\ who\ controls\ ingame\ churches\ and\ offers\ healing\r\n
+comment1.params=name\ desc\ fee
+comment1.target=Priest(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ a\ priest\ with\ a\ name,\ description,\ and\ fee\r\n
+comment2.params=
+comment2.target=int\ getFee()
+comment2.text=\r\n\ Returns\ the\ price\ of\ using\ the\ church\r\n
+comment3.params=fee
+comment3.target=void\ setFee(int)
+comment3.text=\r\n\ Changes\ the\ price\ of\ using\ the\ church\r\n
+comment4.params=p
+comment4.target=boolean\ talk(Player)
+comment4.text=\r\n\ Runs\ using\ the\ church,\ returning\ whether\ the\ player\ was\ healed\r\n
+numComments=5
