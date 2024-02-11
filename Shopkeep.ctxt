@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Shopkeep
+comment0.text=\r\n\ An\ NPC\ which\ the\ player\ can\ purchace\ items\ from\r\n
+comment1.params=name\ desc\ fee\ s
+comment1.target=Shopkeep(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ Shopkeep\ with\ a\ name,\ description,\ fee,\ and\ inventory\ size,\ generating\ an\ inventory\ of\ random\ items\ from\ it\r\n
+comment2.params=
+comment2.target=int\ getFee()
+comment2.text=\r\n\ Returns\ the\ additional\ charge\ applied\ to\ every\ item\r\n
+comment3.params=fee
+comment3.target=void\ setFee(int)
+comment3.text=\r\n\ Changes\ the\ additional\ charge\ applied\ to\ every\ item\r\n
+comment4.params=
+comment4.target=void\ restock()
+comment4.text=\r\n\ Restocks\ the\ shopkeep's\ inventory\r\n
+comment5.params=p
+comment5.target=java.lang.String\ getInv(Player)
+comment5.text=\r\n\ Returns\ the\ string\ list\ of\ the\ shopkeep's\ inventory\r\n
+comment6.params=p
+comment6.target=boolean\ talk(Player)
+comment6.text=\r\n\ Runs\ talking\ to\ the\ shopkeep,\ returning\ whether\ the\ player\ bought\ something\r\n
+numComments=7

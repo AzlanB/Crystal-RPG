@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Runner
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=p
+comment2.target=void\ wander(Player)
+comment2.text=\r\n\ Runs\ the\ player's\ choice\ to\ wander\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLocs()
+comment3.text=\r\n\ Returns\ the\ list\ of\ discovered\ locations\ as\ a\ string\r\n
+comment4.params=p
+comment4.target=void\ goToLocation(Player)
+comment4.text=\r\n\ Runs\ the\ player\ attempting\ to\ visit\ a\ past\ location\r\n
+comment5.params=p
+comment5.target=void\ manageInv(Player)
+comment5.text=\r\n\ Runs\ the\ inventory\ management\ menu\ for\ the\ player\r\n
+comment6.params=p
+comment6.target=void\ makeCamp(Player)
+comment6.text=\r\n\ Runs\ the\ player\ making\ camp\r\n
+comment7.params=p
+comment7.target=void\ encounter(Player)
+comment7.text=\r\n\ Runs\ what\ happens\ when\ the\ player\ gets\ an\ encounter\r\n
+comment8.params=p
+comment8.target=void\ battle(Player)
+comment8.text=\r\n\ Runs\ the\ ingame\ battles\ against\ random\ enemies\r\n
+numComments=9

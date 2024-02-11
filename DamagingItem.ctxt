@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=n\ d\ p\ nU\ dam\ hC\ pier
+comment0.target=DamagingItem(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ boolean)
+comment0.text=\r\n\ Creates\ a\ damaging\ item\ with\ the\ appropriate\ parameters\r\n\ @param\ n\ The\ name\ of\ the\ item\r\n\ @param\ d\ The\ description\ of\ the\ item\r\n\ @param\ p\ The\ price\ of\ the\ item\r\n\ @param\ nU\ The\ number\ of\ times\ the\ item\ can\ be\ used\r\n\ @param\ dam\ The\ amount\ of\ damage\ the\ item\ deals\r\n\ @param\ hC\ The\ chance\ of\ the\ item\ hitting\ the\ target\ (out\ of\ 100)\r\n\ @param\ pier\ Whether\ the\ item\ pierces\ defense\r\n
+comment1.params=
+comment1.target=int\ getDamage()
+comment1.text=\r\n\ Returns\ the\ damage\ the\ item\ deals\r\n
+comment2.params=
+comment2.target=int\ getHitChance()
+comment2.text=\r\n\ Returns\ the\ chance\ of\ the\ item\ hitting\ (out\ of\ 100)\r\n
+comment3.params=
+comment3.target=boolean\ isPiercing()
+comment3.text=\r\n\ Returns\ whether\ the\ item\ pierces\ defense\r\n
+numComments=4

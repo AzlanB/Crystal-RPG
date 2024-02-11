@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=n\ d\ p\ nU\ sT\ sB
+comment0.target=BuffingItem(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ Creates\ a\ buffing\ item\ with\ the\ appropriate\ parameters\r\n\ @param\ n\ The\ name\ of\ the\ item\r\n\ @param\ d\ The\ description\ of\ the\ item\r\n\ @param\ p\ The\ price\ of\ the\ item\r\n\ @param\ nU\ The\ number\ of\ uses\ the\ item\ has\r\n\ @param\ sT\ The\ type\ of\ stat\ the\ item\ boosts\ (0-Strength,\ 1-Agility,\ 2-Defense,\ 3-Health,\ 4-Charm)\r\n\ @param\ sB\ The\ numerical\ boost\ to\ the\ stat\ the\ item\ provides\r\n
+comment1.params=
+comment1.target=boolean\ isInUse()
+comment1.text=\r\n\ Returns\ whether\ the\ item\ is\ currently\ in\ use\r\n
+comment2.params=inUse
+comment2.target=void\ setInUse(boolean)
+comment2.text=\r\n\ Sets\ whether\ the\ item\ is\ currently\ in\ use\r\n
+comment3.params=
+comment3.target=int\ getStatType()
+comment3.text=\r\n\ Returns\ the\ type\ of\ stat\ the\ item\ boosts\ (0-Strength,\ 1-Agility,\ 2-Defense,\ 3-Health,\ 4-Charm)\r\n
+comment4.params=
+comment4.target=java.lang.String\ getStatTypeName()
+comment4.text=\r\n\ Returns\ the\ name\ of\ the\ stat\ the\ item\ boosts\r\n
+comment5.params=
+comment5.target=int\ getStatBonus()
+comment5.text=\r\n\ Returns\ the\ numerical\ boost\ to\ the\ stat\ the\ item\ provides\r\n
+comment6.params=
+comment6.target=void\ tick()
+comment6.text=\r\n\ Makes\ the\ active\ effect\ of\ the\ item\ progress\ by\ one\ time\ step,\ or\ starts\ the\ 3\ turn\ timer\ if\ at\ 0\ already\r\n
+comment7.params=
+comment7.target=int\ getTicks()
+comment7.text=\r\n\ Returns\ the\ number\ of\ time\ steps\ left\ on\ the\ active\ effect\ of\ the\ item\r\n
+numComments=8

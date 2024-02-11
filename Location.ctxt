@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\r\n\ Ingame\ locations\ that\ the\ player\ can\ visit\r\n
+comment1.params=name\ desc
+comment1.target=Location(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ location\ with\ a\ name\ and\ description\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ location\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDesc()
+comment3.text=\r\n\ Returns\ the\ description\ of\ the\ location\r\n
+comment4.params=p
+comment4.target=void\ visit(Player)
+comment4.text=\r\n\ Runs\ what\ happens\ when\ the\ player\ visits\ the\ location\r\n
+numComments=5

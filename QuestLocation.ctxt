@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=QuestLocation
+comment0.text=\r\n\ A\ location\ in\ which\ a\ player\ can\ get\ a\ reward\ by\ providing\ a\ certain\ item\r\n
+comment1.params=name\ desc\ nI\ nT\ rew\ fT
+comment1.target=QuestLocation(java.lang.String,\ java.lang.String,\ Item,\ java.lang.String,\ Item,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ quest\ location\ with\ the\ appropriate\ perameters\r\n\ @param\ name\ The\ name\ of\ the\ location\r\n\ @param\ desc\ The\ description\ of\ the\ location\r\n\ @param\ nI\ The\ item\ needed\ to\ obtain\ the\ location's\ reward\r\n\ @paran\ nT\ The\ message\ the\ player\ gets\ to\ communicate\ what\ item\ they\ need\r\n\ @param\ rew\ The\ reward\ given\ once\ provided\ with\ the\ correct\ item\r\n\ @param\ fT\ The\ message\ the\ player\ gets\ upon\ claiming\ the\ reward\r\n
+comment2.params=
+comment2.target=boolean\ getResolved()
+comment2.text=\r\n\ Returns\ whether\ the\ reward\ has\ already\ been\ claimed\ or\ not\r\n
+comment3.params=p
+comment3.target=void\ visit(Player)
+comment3.text=\r\n\ Runs\ what\ happens\ when\ the\ player\ visits\ the\ location\r\n
+numComments=4

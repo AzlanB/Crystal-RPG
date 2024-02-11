@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NPC
+comment0.text=\r\n\ Non-Player\ Characters\ that\ are\ friendly\ within\ the\ game,\ consists\ of\ a\ description\r\n
+comment1.params=name\ desc
+comment1.target=NPC(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ an\ NPC\ with\ a\ name\ and\ a\ description\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDesc()
+comment2.text=\r\n\ Returns\ the\ NPC's\ description\r\n
+comment3.params=p
+comment3.target=boolean\ talk(Player)
+comment3.text=\r\n\ Allows\ the\ player\ to\ interact\ with\ the\ NPC\r\n
+numComments=4
